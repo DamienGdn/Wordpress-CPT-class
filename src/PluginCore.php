@@ -1,11 +1,9 @@
 <?php
 
 /*
-Plugin Name: Core Plugin Wordpress
-Plugin URI: nothing
+Plugin Name: Plugin Class CPT
 Description: Class and method for create a tools set for wordpress
 Version: 1.0
-Author: Orange Partner
 License: GPL2
 */
 
