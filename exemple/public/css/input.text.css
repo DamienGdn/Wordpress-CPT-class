@@ -1,0 +1,42 @@
+.input-admin{
+    margin-top: 10px;
+}
+.input-admin textarea{
+    width: 90%;
+    resize: none;
+}
+
+.input-admin input.text-core{
+    width: 90%;
+    resize: none;
+}
+
+.input-admin .img_view{
+    margin-top: 10px;
+    width: 100px;
+}
+.input-admin .img_view.large{
+    margin-top: 10px;
+    width: 400px;
+}
+.input-admin .img_view.banner{
+    margin-top: 10px;
+    max-width: 800px;
+    max-height: 200px;
+    height: auto;
+    width: auto;
+}
+.input-admin .del_img{
+    background:  #f08080;
+    color: white;
+    border: 0px;
+    transition: all 0.5s;
+}
+.input-admin .del_img:hover{
+    background: red;
+    color: white;
+}
+.input-admin button{
+    margin-top: 5px;
+    display: inline-block;
+}

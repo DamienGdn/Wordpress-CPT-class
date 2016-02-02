@@ -1,0 +1,124 @@
+.banner{
+ padding-left: 10px;
+}
+.image_banner img{
+    width: 50%;
+    margin-top: 10px;
+}
+.image_banner input[type="checkbox"]{
+    margin-top: 1px;
+}
+
+.construct .config{
+    display: none;
+}
+.construct .row{
+    margin-top: 10px;
+}
+.construct .row input[type="text"]{
+    margin-top: 2px;
+}
+.construct .row.left{
+    float: left;
+    margin-right: 20px;
+
+}
+.clear{
+    clear: both;
+}
+.construct textarea{
+    width: 460px;
+    height: 130px;
+    resize: none;
+}
+.preview_banner{
+
+    height: 250px;
+    border: 1px solid #ccc;
+    padding: 20px;
+
+
+}
+.preview_banner .left{
+    /*padding-left: 30px;
+    padding-right: 30px;*/
+    float:left;
+    width: 43%;
+    position: relative;
+    height: 210px;
+}
+.preview_banner .left .content{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+.right{
+    float:left;
+    width: 43%;
+    height: 210px;
+    position: relative;
+
+}
+.right>img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.preview_banner .left.img{
+    text-align: center;
+    position: relative;
+}
+.preview_banner .left.img img{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.construct .preview_banner h3{
+    margin-top: 0px !important;
+    margin-bottom: 20px!important;
+    font-family: "OrangeSans75RomanRegular",Arial,sans-serif;
+    font-size: 26px!important;
+    color: inherit!important;
+    padding: 0px!important;
+}
+.construct .preview_banner p{
+    font-size: 15px;
+}
+.construct .preview_banner a{
+    padding: 5px 10px;
+    font-family: "OrangeSans75RomanRegular",Arial,sans-serif;
+    display: table;
+    margin-top: 10px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    border: 2px solid inherit;
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 15px;
+}
+.construct .preview_banner a.white{
+    color: white;
+    border: 2px solid white;
+    color: white;
+}
+.construct .preview_banner a.white:hover{
+    color: #444;
+    background-color: white;
+}
+.construct .preview_banner a.black{
+
+    border: 2px solid #444;
+    color: #444;
+    background-color: transparent;
+}
+.construct .preview_banner a.black:hover{
+    color: white;
+    background-color:  #444;
+}
