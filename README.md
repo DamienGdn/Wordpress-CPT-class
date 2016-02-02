@@ -1,0 +1,1 @@
+# Wordpress-CPT-class
